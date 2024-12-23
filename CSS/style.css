@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff0505;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    background-color: #3300ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    padding: 2rem;
+}
+
+.feature {
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+/*Main image*/
+
+.service-card {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.service-card .card-body {
+    padding: 15px;
+}
+
+.card-arrow {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/*footer */
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  color: #333;
+  text-align: center;
+}
+
+/*about*/
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    padding-right: 20px;
+    border-right: 5px solid #ff0000;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.content {
+    float: left;
+    width: 75%;
+}
+
+.content h2 {
+    margin-top: 0;
+    
+}
+
+.content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.content li {
+    margin-bottom: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.video-container {
+    display: inline-block;
+    text-align: center;
+  }
